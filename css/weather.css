@@ -1,0 +1,35 @@
+.function__weather{
+    width:200px;
+    height: 200px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5px;
+    box-sizing: border-box;
+}
+.function__weather-column{
+    margin-top: 10px;
+}
+.function__weather-column:last-child{
+    margin-bottom: 0;
+}
+.weather_location{
+    font-size:24px;
+}
+.weather-temperature{
+    font-size:28px;
+    font-weight: bold;
+}
+.temperature__icon{
+    font-size:30px;
+    font-weight: bold;
+    margin-left:5px;
+}
+.weather-subtext{
+    display: flex;
+    flex-direction: column;
+    font-size:18px;
+    margin-top:8px;
+}

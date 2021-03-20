@@ -26,9 +26,9 @@ function getWeather(lat, lon) {
             const Current_main = json.weather[0].main;
             // const Current_icon = json.weather[0].icon;
             _location.innerText = `${Current_location_city} . ${Current_location_country}`;
-            temperature.innerText = `${Current_temperature}`;
-            feelLike.innerText = `${Current_feelLike}`;
-            humidity.innerText = `${Current_humidity} %`;
+            temperature.innerText = `${Current_temperature}  ℃`;
+            feelLike.innerText = `Feel : ${Current_feelLike} ℃`;
+            humidity.innerText = `Humidity : ${Current_humidity} %`;
             main.innerText = `${Current_main} `;
 
         });

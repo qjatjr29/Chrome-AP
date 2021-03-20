@@ -1,0 +1,23 @@
+.div3 h3{
+    box-sizing: border-box;
+    margin:3px;
+}
+.div3 ul{
+    box-sizing: border-box;
+    margin:8px;
+}
+.pendinglist{
+    font-size:20px;
+}
+.pendinglist li,.finishlist li{
+    font-size:18px;
+    margin-bottom: 5px;
+}
+.pendinglist li button,.finishlist li button{
+    background-color: white;
+    margin-left:10px;
+    width:30px;
+    height: 30px;
+    font-size: 10px;
+    border-radius: 10px;
+}

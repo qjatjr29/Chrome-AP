@@ -1,0 +1,19 @@
+.name_display,.name_form,.name_output{
+    display: none;
+}
+
+
+.showing {
+    display: block;
+    /* font-size: 50px;
+    background-color: #ddd6f3; */
+}
+
+.showing_name{
+    font-size:55px;
+    
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    
+}

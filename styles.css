@@ -1,8 +1,71 @@
-.form__name,.display_name{
-    display: none;
+@import "css/status-bar.css";
+@import "css/JS.css";
+@import "css/form.css";
+@import "css/weather.css";
+@import "css/clock.css";
+@import "css/toDo.css";
+
+
+body{
+    background: linear-gradient(to bottom, #fddbd9, #ddd6f3);
+    /* width:100vw; */
+    height: 100vh;
+}
+
+.Beomsic{
+    display: flex;
+    width:100%;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    top:30px;
+}
+.nothing{
+    width:10px;
+}
+.Beomsic-main{
+    height: 700px;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
-.showing {
-    display: block;
+.function__list{
+    width:500px;
+    margin-top:65px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #ffffff31, #ffeeee31);
+    /* opacity: 0.5; */
+    /* background-color: rgba(0,0,0,0.2); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.parent{
+    
+    display:grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 220px 220px 220px 220px;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+    
+
+.inner_box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 10px;
+    width: 450px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:5px;
 }
